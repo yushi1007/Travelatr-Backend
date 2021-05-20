@@ -1,24 +1,25 @@
-# README
+# Travelatr 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A travel information website provides latest travel destination recommendations, including facts, and flights search
 
-Things you may want to cover:
+### 🏖️ [Backend](https://github.com/jpham1109/Travelatr-Backend) | [Frontend](https://github.com/yushi1007/Travelatr-Frontend)
 
-* Ruby version
+# Technologies/APIs Used
 
-* System dependencies
+- Ruby on Rails
+- React.js
+- Google Places API(In the backend)
+- Skyscanner Flight Search API(In the frontend)
 
-* Configuration
+## Creator
 
-* Database creation
+👤 **Yu Shi & Jamie Hoa Pham L-H**
 
-* Database initialization
+- Github:[@YUSHI](https://github.com/yushi1007) 
+- Yu Shi:[LinkedIn](https://www.linkedin.com/in/yushi95/)
+- Github:[@JamieHoaPhamL-H](https://github.com/jpham1109) 
+- Jamie Hoa Pham L-H:[LinkedIn](https://www.linkedin.com/in/jamie-lawrence-hurt-ba3b341ab/)
 
-* How to run the test suite
+## Support
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please give a ⭐️ if you like this project, thank you!

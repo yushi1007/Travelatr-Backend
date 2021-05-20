@@ -47,9 +47,9 @@ puntacana = Destination.create(name: 'Punta Cana, Dominican Republic', image: 'h
 vallarta = Destination.create(name: 'Puerto Vallarta, Mexico', image: 'https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/1015b190-ef87-010b-3f9b-14088fbeec02/630x355.jpg', description: "One of three Mexican destinations in the top 10 this year, Puerto Vallarta is down one spot from 2020 to ninth this year. Nonetheless, the beloved destination south of the border continues to offer visitors new discoveries and old favorites even post-pandemic. ", us: false, airport_code:'PVR')
 nassau = Destination.create(name: 'Nassau, Bahamas', image: 'https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/935c5a3b-defb-7b48-7622-f14c7ee14533/630x355.jpg', description: "The Caribbean continues to be one of the most accessible regions for Americans in the time of coronavirus and therefore it's no surprise that it's the most popular for summer travel in 2021. Nonetheless, Nassau, a destination no doubt hurt by the pause in cruising, continues to slide, falling to 10th internationally in 2021 after ranking sixth in 2020 and as high as fourth in 2019. ", us: false, airport_code:'NAS')
 
-# Destination.all.each{|destination| destination.update(photos: destination.photo_array)}
-# Destination.all.each{|destination| destination.update(rating: destination.rating)}
-# Destination.all.each{|destination| destination.update(reviews: destination.reviews)}
-# Destination.all.each{|destination| destination.update(user_ratings_total: destination.user_ratings_total)}
+Destination.all.each{|destination| destination.update(photos: destination.photo_array)}
+Destination.all.each{|destination| destination.update(rating: destination.rating)}
+Destination.all.each{|destination| destination.update(reviews: destination.reviews)}
+Destination.all.each{|destination| destination.update(user_ratings_total: destination.user_ratings_total)}
 
 puts "🏝🛬🌞SEEDED✨🌎🏖"
